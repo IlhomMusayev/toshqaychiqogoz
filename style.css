@@ -97,3 +97,16 @@ body {
     text-align: center;
     padding: 10px 0;
 }
+.restart-btn{
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    border: 1px solid #888;
+    background-color:darkred;
+    color: #fff;
+    font-weight: bold;
+}

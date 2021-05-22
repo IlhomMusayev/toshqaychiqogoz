@@ -14,6 +14,7 @@ const yourNowResult = document.querySelector('.your-now-result')
 
 const computerNowResult = document.querySelector('.computer-now-result')
 
+const restartBtn = document.querySelector('.restart-btn')
 let yourResult = 0,
     computerResult = 0;
 
@@ -70,3 +71,9 @@ paperButtonElement.onclick = function () {
         gameResult.textContent = 'Durrang';
     }
 }
+restartBtn.addEventListener('click', e=>{
+    yourResult = 0,
+    computerResult = 0
+    computerResultElement.textContent = computerResult
+    yourResultElement.textContent = yourResult
+})
